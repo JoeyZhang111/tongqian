@@ -1,0 +1,3 @@
+会员端:http://192.168.0.198:8099/dist/#/
+权限系统：http://182.150.21.90:9590/Index.html
+正式：http://auth.sctongqian.com/Login.html

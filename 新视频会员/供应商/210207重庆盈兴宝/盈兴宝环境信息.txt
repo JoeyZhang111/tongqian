@@ -1,0 +1,8 @@
+直充：
+AppKey:M00099
+AppSecret:o1FTZDfyqx7b7EmrHYq8smKXI6nkttY7
+产品编码：盈兴宝提供
+SubmitOrderUrl：http://8.136.100.230:8080/api/video/makeOrder 提单地址    
+QueryOrderUrl:http://8.136.100.230:8080/api/queryOrder 查单地址  
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/CQYXB_ZC 回调地址
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.CQYXB_ZC

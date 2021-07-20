@@ -1,0 +1,9 @@
+Appkey、AppSecret、产品编码联系供应商提供
+执行器：KCWN.MultiBussiness.SupplierExecutor.YDV2
+
+扩展属性名称         扩展属性值                                扩展描述
+SubmitCardUrl：https://api.quancangyun.cn/service/orderasyc    提单地址
+QueryCardUrl：https://api.quancangyun.cn/service/getorder      查单地址
+JavaCommonHost：localhost:17873                                解密地址
+deskey：联系供应商提供                                          deskey
+ 

@@ -1,0 +1,9 @@
+AppKey：M14270
+AppSecret ：feMPL0YjVssSV8xrIeFIUnJFskhbTd2n
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.LJPS
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.LJPS
+-------------------------------------------------------------
+
+SubmitApiUrl：http://api.yaajie.com:8080/api/tianMao/makeOrder 提单地址
+QueryApiUrl：http://api.yaajie.com:8080/api/queryOrder  查询地址
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/LJPS 回调地址

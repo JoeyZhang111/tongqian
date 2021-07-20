@@ -1,0 +1,40 @@
+供应商
+
+这是正式环境信息？（回答是，真实充值成功要使用老板手机号报账财务）
+
+能否提供一个能收单成功最终返回充值失败结果的账号（查单，可关闭回调服务）
+
+这边要测试回调接口，请问传什么账号能收到充值失败结果（提供我们的回调地址给供应商）
+
+提供白名单ip给供应商（我们的请求地址，一般开发提供给供应商）
+
+
+
+
+会员（正式环境找佳乐）
+
+Ip验证失败，询问请求地址，请求到测试还是正式（测试、正式没有限制Ip）
+
+卡密链接：通过链接地址可以打开换券二维码
+目前没有上架卡号卡密连接的产品
+
+测试、正式提供公私钥（发送加密压缩包给会员，随便生成）
+
+收单接口返回在文档中没有说明的状态码请人工处理并反馈到我方，0，9，10，11，1000 不确定结果，可人工处理或者自主查单，12是查单接口返回
+
+异步通知的卡密结果解密失败（询问是哪一条记录，找到我们的回调日志中请求的cardinfo给会员）
+
+回调未收到（1.目前回调地址后面不能带参数 
+            2.会员有必传参数携带，回调传递可以将这个值放到下单接口的的：Attach 这个参数上，回调后会返回Attach传的值通知）
+
+会员报错，发的是他们的请求参数，在服务器E:\Web\MultiBus_New\MultiBus.MemberApi_New\Log输入关键字可查看我们的请求响应
+
+模拟会员查询，在提单完成后，需手动调用订单查询接口去查询（不会自动查）
+
+你们生成一对ras公私密钥，公钥传过来，卡密会用你们传的这个公钥加密，通知的时候你们在解密出来
+
+回调请求数据不是json格式，常规的Key=value
+
+查询、回调都需解密（卡密信息（RSA加密密文，合作方通过RSA私匙进行解密））
+查询请求数据：appkey=211394651&TimesTamp=1590652193926&Version=1.0&MOrderID=1590566682&Sign=5675B44DE25A470AA6D6B39C32DF5B2E，响应数据：{"Code": 999,"Message": "请求成功","Data": {"MOrderID": "1590566682","OrderID": 200527140145159478,"OrderState": 2,"ChargeAccount": "18084883127","ProductCode": "PLM100010","ProductName": "卡密--测试专用产品请勿修改","BuyCount": 1,"SellDebitAmout": 0.8800,"CardData": "o+ULuU9XnhTCPgHj305Lt/wXAisD/D2bp0L4SV0/pFgj7jxXcbudtJPNK5cq7Ba6dFvppMI6U8h8E+spwUrjMGpJdGxA/gEVhixX+TQBH/5hfAfA8AYwgtlorB7RTUKL0oQ7Ol5ios0x+Lk2iVquPY1c/YsYAHlZFxEVOZ2F2CtjMhFMOgKEaPQLaGwtQuNwP0/RyyyoIJrxxVVOyn21mA0QfBVw/Hf/c4Cy4f+Of2NDZEmpaoZP7bQqN1xwTj2v5j2ydiIwK0P+8ZdzOAjU2pvRgPrc91Zm01wS5niLPctwnKXdqZJvEMs1Cj11xnZhS/6vnl+AjlaUebxAoFEKkQ=="}}
+回调请求数据：AppKey=211394658&TimesTamp=1615330022321&MOrderID=NBLZ-20210309223105-O3HNR-40517&OrderID=210309224700815001&State=2&ChargeAccount=&Version=1.0&BuyCount=1&Attach=&CardInfo=Uclp1iD0opqJRjUjqFLM%2bW1Hk8Ix5FSJOCVyRBjW6YzRUBna6hMWD1LUbHSBxa3Skd7PFyoPCMXXHT4yEtG8%2bpMEjjJynEzEPVnmcJEaZEv9f%2bnsPKa3k7IGcXWCUtLfeqrh0%2bw6pvbl6MECvNFmpfv5ubRpJpEBgdxSBDVPT%2bhkyIe%2b0EgE6ENSIYsB0AokVXLqTvhI5HvzmvO1R1iStq7pqBDiXGAI6FG3G93mwtaQ9UJG6UPM%2fxp6XBdbG6ZsqMHDoMlWxisuWDVEo4ek%2bGqLC%2bbpX0IrxKAfbbKSdlrJmudtgq%2fD0sNkiF5KrZcx7mfHVgvysHRQbtTg1X4MuA%3d%3d&Sign=F233CB564E3AEE2A5BFB7D13FEFE741B" 返回信息："ok""}

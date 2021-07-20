@@ -1,0 +1,9 @@
+AppKey：202104210927
+AppSecret ：1990B1B7B0897AD0AB908D54C41F9934
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.BJQD
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.BJQD
+-------------------------------------------------------------
+
+SubmitOrderUrl：http://121.196.177.34:1012/api/md5/submitorder 提单地址
+QueryOrderUrl：http://121.196.177.34:1012/api/md5/queryorder  查询地址
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/BJQD 回调地址

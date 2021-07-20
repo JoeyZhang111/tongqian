@@ -1,0 +1,12 @@
+接口帐号：10002705
+密钥：eQNNsZKQewYZtDDDWfNarBwxHmfPHA48
+SubmitOrderApiUrl 充值地址：http://123.57.216.254:9086/onlinepay.do
+QueryOrderApiUrl 查询地址：http://123.57.216.254:9086/searchpay.do
+NotifyApiUrl 回调地址：http://host:ip/Notify/RunPu.ashx  （前面的IP地址要替换成正式环境的）
+QueryBalanceApiUrl余额地址http://123.57.216.254:9086/searchbalance.do
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.RunPu.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.RunPu
+
+需要提供下ip白名单给对方

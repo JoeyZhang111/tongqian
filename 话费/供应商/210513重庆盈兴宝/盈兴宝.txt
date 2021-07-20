@@ -1,0 +1,10 @@
+接口帐号：M00131
+接口密钥：nQr1f15YZhSWesQGYsEaMLIZBc45pM8N
+SubmitOrderApiUrl 提单地址  http://8.136.100.230:8080/api/huafei/makeOrder
+QueryOrderApiUrl 查询地址  http://8.136.100.230:8080/api/queryOrder
+QueryBalanceApiUrl 余额地址 http://8.136.100.230:8080/api/queryBalance
+NotifyApiUrl 回调地址：http://hfapi.kabapay.com/Notify/CQYXB.ashx
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.CQYXB.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.CQYXB

@@ -1,0 +1,10 @@
+
+AppKey的值未做要求
+AppSecret：72_44bf2a3987b1dda4fdd2eb47a5d19446
+
+SubmitUrl：http://rykaquan.cardr.cn/customer/Users/noCardRecharge 提单地址
+QueryUrl:http://rykaquan.cardr.cn/customer/Users/queryOrderInfo 查单地址
+http://video.notify.sctongqian.com/CallBack/RY 回调地址
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.RY
+
+

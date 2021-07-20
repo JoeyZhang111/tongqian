@@ -1,0 +1,5 @@
+AESIv ifGOeBnEUUe2xo8Q 加密向量
+AESKey 7UpyiWxTijDqxYu6 加密密钥
+CardSubmitUrl  https://api.chengquan.cn/coupon/order/pay 卡密提单地址
+CardQueryUrl https://api.chengquan.cn/coupon/order/query卡密查单地址
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.CW

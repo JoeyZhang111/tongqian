@@ -1,0 +1,9 @@
+
+AppKey：99b37417e1185eda1378600593b45c40
+AppSecret:d7a46b12fe8a304ef17892c89ede22a
+执行器dll:KCWN.MultiBussiness.SupplierExecutor.XMLY
+VIP会员7天：商品ID：1010500100000306120，分销：3
+喜点：支付金额：小于等于3，分销：4
+
+QueryApiUrl：http://mpay.ximalaya.com/open_pay/v2/get_order_detail
+SubmitApiUrl：http://mpay.ximalaya.com/omp-payment-open-api/distribute/test

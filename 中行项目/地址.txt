@@ -1,0 +1,6 @@
+原型：
+https://ks6oui.axshare.com
+后台：
+http://192.168.0.106:9596/dist/#/purchasingmanagement
+兑换地址：
+http://192.168.0.46:8076/bankChinaH5/changePage.html?ProductID=商品编码

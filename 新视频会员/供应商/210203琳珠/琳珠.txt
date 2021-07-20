@@ -1,0 +1,9 @@
+正式信息
+AppKey：10111
+AppSecret：051702AB79AB89984472F5290D8BB283
+SubmitUrl：https://www.xyzshops.cn/mobile/index.php 提单地址
+QueryUrl: https://www.xyzshops.cn/mobile/index.php 查单地址
+CallbackUrl：http://video.notify.sctongqian.com/CallBack/LZ 回调地址
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.LZ
+产品编码：就是充值的面值（100，200...)
+ChargeAccount充值账户：1000115100002899419

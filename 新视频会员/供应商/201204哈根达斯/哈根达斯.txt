@@ -1,0 +1,5 @@
+AppKey：对应供应商ChanelId
+AppSecret：对应供应商APpkey
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.HGDS
+券品种couponType、取码订单号appOrderNo由供应商提供正式信息 
+提单地址 SubmitUrl：http://Ip：host/hgdz_distributor_web/couponApiService（正式提单地址由供应商提供）

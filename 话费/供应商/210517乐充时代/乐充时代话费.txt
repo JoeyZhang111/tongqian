@@ -1,0 +1,11 @@
+接口帐号：202105141617
+接口密钥：1FF5445D4947A38C7E9F086F7945CC07
+SubmitOrderApiUrl 提单地址 http://121.196.177.34:1012/api/md5/submitorder
+QueryOrderApiUrl 查询地址  http://121.196.177.34:1012/api/md5/queryorder
+QueryBalanceApiUrl 余额地址 http://121.196.177.34:1012/api/md5/getbalance
+NotifyApiUrl 回调地址：http://hfapi.kabapay.com/Notify/LeChongShiDai.ashx  
+获取充值结果方式：通知
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.LeChongShiDai.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.LeChongShiDai

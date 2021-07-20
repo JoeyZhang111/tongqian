@@ -1,0 +1,14 @@
+接口帐号：10002523
+接口密钥：nybDkXhnJE5SPR4mfzjFx2A6XS4Tircn
+SubmitOrderApiUrl             提单地址            http://123.60.35.52:9086/onlinepay.do
+QueryOrderApiUrl              查询地址            http://123.60.35.52:9086/searchpay.do
+QueryBalanceApiUrl            余额地址            http://123.60.35.52:9086/searchbalance.do
+NotifyApiUrl                  回调地址            http://hfapi.kabapay.com/Notify/RuiYang.ashx
+
+获取充值结果方式：通知
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.RuiYang.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.RuiYang
+
+慢充产品编码供应商提供

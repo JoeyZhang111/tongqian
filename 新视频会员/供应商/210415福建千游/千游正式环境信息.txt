@@ -1,0 +1,8 @@
+AppKey：5a14b5d2
+AppSecret ：3a797ac3fba643b7a7327d8e1d59b2d6
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.FJQY
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.FJQY
+-------------------------------------------------------------
+
+ApiUrl：http://api.70kc.com/api/index 接口地址（查单/提单共用  
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/FJQY 回调地址

@@ -1,0 +1,10 @@
+接口帐号、密钥联系供应商提供
+---------------------------------------------------------------------------------------------------------------------------------------
+属性名称                   属性显示名称                                    属性值
+FULUApiUrl                  提单地址                                 http://openapi.fulu.com/api/getway
+FULUAppKey                   AppKey                                     填接口账号
+
+获取充值结果方式：查询
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.FULU.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.FULU

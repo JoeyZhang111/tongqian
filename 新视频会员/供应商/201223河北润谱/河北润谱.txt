@@ -1,0 +1,18 @@
+河北润谱
+
+后台登录地址：http://123.57.216.254:7080/
+登录名：KQTQ
+初始密码：sup123456
+直充产品编码：18280直充
+卡密产品编码：17900卡密
+
+用户编号：10002489
+密钥：mWzesFT6r5WJyA5Zz84DN7atafpwbh3S
+SubmitUrlApi：http://123.57.216.254:9086/kmorderpay.do  卡密提单地址
+SubmitUrl：http://123.57.216.254:9086/gameonlinepay.do  直充提单地址
+QueryUrl:http://123.57.216.254:9086/searchpay.do 查单地址
+CallBackUrl:http://video.notify.sctongqian.com/callBack/RP 回调地址
+卡密/直充执行器：KCWN.MultiBussiness.SupplierExecutor.KM_RunPu
+直充执行器dll：KCWN.MultiBussiness.SupplierExecutor.RP
+
+

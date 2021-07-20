@@ -1,0 +1,7 @@
+AppKey、AppSecret先随便填，创建好了爽哥随后来修改
+执行器类型名:KCWN.MultiBussiness.SupplierExecutor.PASD
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.PASD
+充值结果类型：回调
+SubimApiUrl http://video.orderserver.sctongqian.com/PAOrders/InsertOrder 提交订单
+
+ 

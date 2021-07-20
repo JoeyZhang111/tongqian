@@ -1,0 +1,10 @@
+接口帐号、密钥 正式环境信息由供应商提供
+SubmitOrderApiUrl 提单地址  http://*:*/Order/InsertV2（从供货商处获取）
+QueryOrderApiUrl 查询地址  http://*:*/Order/QueryV2（请从供货商处获取）
+QueryBalanceApiUrl 余额地址 http://*:*/ Member/GetAccount（请从供货商处获取）
+NotifyApiUrl 回调地址：http://hfapi.kabapay.com/Notify/YSHY.ashx  
+获取充值结果方式：通知
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.YSHY.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.YSHY

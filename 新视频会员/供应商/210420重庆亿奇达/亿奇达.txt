@@ -1,0 +1,9 @@
+AppKey：tongqian
+AppSecret ：bad2f5effe1f9cfc8b18acd7f55e1cea
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.YQD
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.YQD
+-------------------------------------------------------------
+
+SubmitOrderUrl：http://Open.shangmeng.top/api/UserOrder/CreateOrder 提单地址  
+QueryOrderUrl：http://Open.shangmeng.top/api/UserOrder/QueryOrderModel 查单地址
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/YQD 回调地址

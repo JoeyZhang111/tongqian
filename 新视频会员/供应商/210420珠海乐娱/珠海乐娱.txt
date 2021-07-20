@@ -1,0 +1,7 @@
+AppKey、AppSecret 联系供应商提供
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.ZHLY
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.ZHLY
+-------------------------------------------------------------
+
+ApiUrl：http://ip：port/ApiOrder/Getway  接口地址（提单、查单通用）端口地址联系供应商提供
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/ZHLY 回调地址

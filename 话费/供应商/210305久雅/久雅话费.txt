@@ -1,0 +1,10 @@
+接口帐号：10005208
+密钥：MpDPGD7GntRKdBEiwNhnMG55Kx6AjSwE
+SubmitOrderApiUrl 充值地址：http://121.41.86.9:8082/onlinepay.do
+QueryOrderApiUrl 查询地址：http://121.41.86.9:8001/searchpay.do
+NotifyApiUrl 回调地址：http://hfapi.kabapay.com/Notify/JiuYa.ashx  （前面的IP地址要替换成正式环境的）
+QueryBalanceApiUrl余额地址 http://121.41.86.9:8082/searchbalance.do
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.JiuYa.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.JiuYa

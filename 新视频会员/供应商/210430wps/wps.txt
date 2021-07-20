@@ -1,0 +1,19 @@
+AppKey对应appid，AppSecret对应secretKey，联系供应商提供
+
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.WPS
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.WPS
+-----------------------------------------------------------------------------------------
+供应商货源扩展属性
+扩展属性名称                    扩展属性值                                     扩展属性描述
+accessId                         供应商提供                                         id
+iv                               供应商提供                                        偏移量
+key                              供应商提供                                        DES密钥
+SubmitApiUrl              https://zt.wps.cn/union-vip/member/phone/recharge        提交地址
+
+-------------------------------------------------------------------------------------------------
+供应商货源产品编码匹配规则
+属性名称                         属性值                       是否必填                属性描述
+会员类型id                       memberid                       是                   12：稻壳会员，20：WPS会员，40：超级会员      
+会员天数                         days                           是                   31：一个月，372：一年
+
+

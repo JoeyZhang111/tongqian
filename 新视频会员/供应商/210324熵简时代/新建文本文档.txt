@@ -1,0 +1,8 @@
+AppKey：1010
+AppSecret ：lBmsD417E2QXfmJz1igVKGVshWVd1Dyy
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.SJ
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.SJ
+-------------------------------------------------------------
+SubmitOrderUrl：http://8.129.37.96:8080/Home/ApiMerchant/insertv1 提单地址  
+QueryOrderUrl：http://8.129.37.96:8080/Home/ApiMerchant/selectv1 查询地址   
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/SJ 回调地址

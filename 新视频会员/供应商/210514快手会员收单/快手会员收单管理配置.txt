@@ -1,0 +1,18 @@
+会员订单获取账户管理
+会员收单信息类型：
+KCWN.CollectMemberOrderService.Collectors.KuaiShouCollector
+会员扩展属性：
+--------------------------------------------------------------
+扩展属性名称                 扩展属性值                                                                             扩展属性描述     
+AccessTokenUrl：      http://hfapi.kabapay.com/KuaiShou/AccessToken.ashx                                                 授权地址
+AccountWhiteList：                  多个白名单用英文逗号隔开                                                           充值帐号白名单
+ApiAccount：                                                                                                               接口帐号
+AppSecret：                                                                                                         接口密匙
+CallBackUrl：          http://video.collect.sctongqian.com/CallBack/NewKCWN                                           回调地址
+MemberCallBackUrl：                                                                                                会员回调地址
+WhiteListInsertOrderUrl： http://hfapi.kabapay.com/KuaiShou/InsertWhiteListOrder.ashx（IP替换正式的）         添加白名单订单链接地址
+WhiteListQueryOrderUrl：  http://hfapi.kabapay.com/KuaiShou/QueryWhiteListOrder.ashx（IP替换正式的）           查询白名单订单链接地址
+
+会员接口地址
+充值接口：http://video.collect.sctongqian.com/CollectOrder/KuaiShou_CollectOrder
+查询接口：http://video.collect.sctongqian.com/CollectOrder/KuaiShou_QueryOrder

@@ -1,0 +1,14 @@
+上海优方话费货源
+
+货源自定义参数：
+SubmitOrderApiUrl（提交订单接口地址）：http://xj.jiefupay.com:10061/plat/api/old/submitorder
+QueryOrderApiUrl（查询订单接口地址）：http://xj.jiefupay.com:10061/plat/api/old/queryorder
+QueryBalanceApiUrl（查询余额接口地址）：http://xj.jiefupay.com:10061/plat/api/old/queryBalance
+NotifyApiUrl（回调接口地址）：http://182.150.21.90:9681/Notify/YouFang.ashx（前面的IP地址要替换成正式环境的）
+
+执行器文件名称：KCWN.MobileCharges.Executors.Mobile.YouFang.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.YouFang
+执行器类名称：Executor
+
+
+查无此单复查时间间隔：180（3分钟）

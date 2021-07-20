@@ -1,0 +1,12 @@
+接口帐号：M00098
+接口密钥：rPSW78e2IHwB1G1dAZLtG8x2AsDELVjv
+SubmitOrderApiUrl             提单地址            http://8.136.241.219:8080/api/huafei/makeOrder
+QueryOrderApiUrl              查询地址            http://8.136.241.219:8080/api/queryOrder
+QueryBalanceApiUrl            余额地址            http://8.136.241.219:8080/api/queryBalance
+NotifyApiUrl                  回调地址            http://hfapi.kabapay.com/Notify/AiDai.ashx  
+SubmitFailureCodeList  提交成败置失败代码列表     1|100000|200000|200002|200003|200004
+获取充值结果方式：通知
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.AiDai.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.AiDai

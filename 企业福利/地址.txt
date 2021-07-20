@@ -1,0 +1,10 @@
+后台系统
+http://bfyx.sctongqian.com/manager/#/loginAccount
+企业管理系统
+http://bfyx.sctongqian.com:8080/main/system/index
+后台系统原型
+https://6c8cbg.axshare.com/#g=1
+企业管理系统原型
+https://4qajr8.axshare.com/#g=1&p=%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86
+App原型
+https://www.xiaopiu.com/h5/byId?type=project&id=5e8fe42f8f0d6d11b8497fc3

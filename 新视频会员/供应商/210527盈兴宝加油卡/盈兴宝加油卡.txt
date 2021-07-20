@@ -1,0 +1,20 @@
+
+AppKey：M00133
+AppSecret：sb8qzipyPVRHzhPdBpufU1fIn5wIpvxF
+AppPwd:123456
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.CQYXB_JYK
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.CQYXB_JYK
+充值结果类型:通知
+
+-----------------------------------------------------------------------------------------
+供应商货源扩展属性
+扩展属性名称                    扩展属性值                                     扩展属性描述
+SubmitOrderUrl              http://8.136.100.230:8080/api/jyk/makeOrder            提交地址
+QueryOrderUrl               http://8.136.100.230:8080/api/queryOrder               查单地址
+CallBackUrl                 http://video.notify.sctongqian.com/CallBack/CQYXB_ZC   回调地址
+
+-------------------------------------------------------------------------------------------------
+供应商货源产品编码匹配规则  
+属性名称                         属性值                       是否必填                    属性描述
+加油卡金额                        amt                           是                        加油卡金额     
+加油卡类型                        type                          是                   中石化：ZSH 中石油：ZSY

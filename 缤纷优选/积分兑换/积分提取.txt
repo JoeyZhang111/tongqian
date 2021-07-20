@@ -1,0 +1,67 @@
+
+
+积分卡提取相关
+        /// <summary>
+        /// 商户号
+        /// </summary>
+        public string merchant_id { get; set; }
+        /// <summary>
+        /// 手机号
+        /// </summary>
+        public string mobile { get; set; }
+        /// <summary>
+        /// 订单号 请求唯一单号，根据据此防重,也是请求流水
+        /// </summary>
+        public string sub_order_id { get; set; }
+        /// <summary>
+        /// 对应外部商户的活动号或商品编号对应Ebuy来说是活动券ID
+        /// </summary>
+        public int ext_goods_id { get; set; }
+        /// <summary>
+        /// 提取数量
+        /// </summary>
+        public int buy_num { get; set; }
+        /// <summary>
+        /// 过期时间
+        /// </summary>
+        public string expire_time { get; set; }
+        /// <summary>
+        /// 有效开始时间
+        /// </summary>
+        public string start_time { get; set; }
+        /// <summary>
+        /// 签名
+        /// </summary>
+        public string sign { get; set; }
+
+
+测试环境:http://bfyx.kabapay.com/ExtractPointCards/getcodedata
+json传参
+提取示例:{"merchant_id":"600000038253","mobile":"13658260252","sub_order_id":"20201123142316728","ext_goods_id":17,"buy_num":1,"expire_time":"2021-11-23 14:25:00","start_time":"2020-11-23 14:25:00","sign":"1231231"}
+备注:sign 签名未做验证
+
+
+
+返回示例:
+{
+    "resp_code": "0",
+    "resp_desc": "成功",
+    "code_data": "卡号: 2010121748824349,卡密:5aa36d42ff0b8164;",
+    "start_time": "2020-11-23 14:25:00",
+    "expire_time": "2021-11-23 14:25:00"
+}
+
+
+
+
+
+商户号为空、商户号不存在、商户号禁用、商户号限制IP、商户号资金不足
+号码为空、号码包含字母特殊字符空格
+订单号为空、订单号包含字母特殊字符空格、订单号重复
+商品编码为空、商品编码不存在、商品编码包含字母特殊字符空格
+购买数为空、购买数为0、购买数-1、购买数包含字母特殊字符空格
+有效期为空、有效期格式错误、有效期过期
+开始时间为空、开始时间格式错误、开始时间未到
+签名为空、签名包含字母特殊字符空格
+
+

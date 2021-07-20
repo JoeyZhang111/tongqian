@@ -1,0 +1,13 @@
+AppKey：2RaqRLERJG
+AppSecret ：CnjKsNeckfoeVHKF
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.GZZX
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.GZZX
+-------------------------------------------------------------
+
+ZCSubmitOrderUrl：http://120.79.157.192:8911/api/order/submit 直充提单地址
+KQSubmitOrderUrl：http://120.79.157.192:8911/api/card/get 卡券提单地址
+QueryOrderUrl：http://120.79.157.192:8911/api/order/query  通用查询地址
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/GZZX 通用回调地址
+
+产品渠道配货：
+直充只填写产品编码，卡券填写产品编码，还要根据商品同异步属性填写扩展参数{"supplyMode":"0"} 0代表异步 1代表同步

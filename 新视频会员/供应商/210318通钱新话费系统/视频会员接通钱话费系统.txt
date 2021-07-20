@@ -1,0 +1,11 @@
+AppKey、AppSecret填写正式话费系统接口账户信息
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.TQHF
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.TQHF
+-------------------------------------------------------------
+供应商货源扩展属性
+SubmitApiUrl：http://182.150.21.90:9681/SubmitOrder.ashx 提单地址 （IP地址替换正式话费系统）  
+CallBackUrl：http://182.150.21.90:9063/CallBack/TQHF 回调地址  （IP地址替换正式话费系统）  
+供应商货源产品编号匹配规则
+属性名称        属性值       是否必填     属性描述
+  面值          ParPrice       是           话费面值（单位：元）
+ 话费类型       ProductType    是           话费类型（话费类型（1：快充，2：慢充））

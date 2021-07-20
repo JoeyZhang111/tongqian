@@ -1,0 +1,7 @@
+ 测试域名：http://test-v.juhe.cn/
+ 测试Key：a0ba07b02b416df0ea814b00fa1675fe
+ 测试OpenId：JHd5d91dd4b688f52ed3482b19b2310dc3
+ 执行器dll：KCWN.MultiBussiness.SupplierExecutor.JHSJ
+ 模拟订单状态[成功|失败]：http://test-v.juhe.cn/ofpay/sinopec/mockSta?key=key&orderid=订单号&game_state=[1|9]
+ 模拟订单回调：http://test-v.juhe.cn/ofpay/sinopec/mockCallback?key=key&orderid=订单号&cburl=接收回调地址
+ 备注说明：测试环境不会真实送充，需要模拟订单失败、成功、回调请自行通过模拟地址发起测试URL地址，只需将正式环境的域名替换即可，其余保持一致，具体请参照在线接口文档。 

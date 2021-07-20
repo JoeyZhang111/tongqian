@@ -1,0 +1,10 @@
+接口帐号：101102174
+密钥：NGd5Jp7UCTqZ2iBnrWgVcPFYOT21EwI7
+SubmitOrderApiUrl 充值地址：http://api.julives.com:9080/zxpaycore/v2/recharge
+QueryOrderApiUrl 查询地址：http://query.julives.com:9080/zxpaycore/v2/query
+NotifyApiUrl 回调地址：http://host:ip/Notify/ZhiXin.ashx  （前面的IP地址要替换成正式环境的）
+QueryBalanceApiUrl余额地址 http://balance.julives.com:9080/zxpaycore/v2/balance
+
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.ZhiXin.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.ZhiXin

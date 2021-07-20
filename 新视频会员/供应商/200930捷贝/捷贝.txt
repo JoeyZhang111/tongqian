@@ -1,0 +1,8 @@
+商户ID：20051 
+秘钥：nIUY0BZcZi44Ulx3
+地址：
+http://www.quduofan.com/api/custom/balance.php   查询商户余额
+http://www.quduofan.com/api/custom/submit.php    提单
+http://www.quduofan.com/api/custom/search.php    主动查询
+
+爱奇艺黄金会员月卡   产品编号：1

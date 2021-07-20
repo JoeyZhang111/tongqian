@@ -1,0 +1,6 @@
+
+Appkey:30272
+AppSecret: 7F0D7C31E0B8A446C525B951EAB161EE0BB94F71EF2CFD7FE1768C11F6470803
+SubmitApiUrl:https://vip.video.qq.com/fcgi-bin/comm_cgi?name=hlwmp_access_layer&cmd=1&otype=xjson 充值地址
+执行器类：KCWN.MultiBussiness.SupplierExecutor.TXHD
+产品编码联系供应商提供

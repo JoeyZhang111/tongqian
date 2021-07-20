@@ -1,0 +1,32 @@
+import org.apache.commons.codec.digest.DigestUtils;
+String AppKey= "211394680"
+String AppSecret= "lOqVb8XGUkm1O/ppIxKhsg=="
+long time=System.currentTimeMillis();
+String TimesTamp=time.toString();
+String ProductCode= "PLM100078";
+String BuyCount= "1";
+String MOrderID= time.toString();
+String ChargeAccount= "1000115100002899419";
+String ChargeAccountType= "1";
+String Attach= "";
+String ExtendParam= "";
+String CustomerIP= "121.43.39.80";
+String IsCallback= "0";
+String CallBackUrl= "";
+String Version= "1.0";
+String str =AppKey+BuyCount+CallBackUrl+ChargeAccount+CustomerIP+MOrderID+ProductCode+TimesTamp+Version+AppSecret;
+String Sign = DigestUtils.md5Hex(str);
+vars.put("Sign",Sign.toUpperCase());//转换为大写字母，接口文档说明：Sign为32位大写字符串
+vars.put("AppKey",AppKey);
+vars.put("TimesTamp",TimesTamp);
+vars.put("ProductCode",ProductCode);
+vars.put("BuyCount",BuyCount);
+vars.put("MOrderID",MOrderID);
+vars.put("ChargeAccount",ChargeAccount);
+vars.put("ChargeAccountType",ChargeAccountType);
+vars.put("Attach",Attach);
+vars.put("ExtendParam",ExtendParam);
+vars.put("CustomerIP",CustomerIP);
+vars.put("IsCallback",IsCallback);
+vars.put("CallBackUrl",CallBackUrl);
+vars.put("Version",Version);

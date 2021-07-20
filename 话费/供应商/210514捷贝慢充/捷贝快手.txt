@@ -1,0 +1,12 @@
+接口帐号：JIEBEI0002
+密钥：p62dp6psFBMYMQLkrCBeh0ktsv4oamR7
+---------------------------------------------------------------------------------------------------------------------------------------
+属性名称                   属性显示名称                                    属性值
+SubmitOrderApiUrl           提单地址                                 （接口地址从供货商处获取）
+QueryOrderApiUrl            查询地址                                 （接口地址从供货商处获取）
+NotifyApiUrl                回调地址                        http://hfapi.kabapay.com/Notify/JieBeiKuaiShou.ashx
+SubmitFailureCodeList      可以做失败处理的Code             1000|1001|2002|2003|101|102|103|104|201|202|203|204|205|207|208|209
+获取充值结果方式：通知
+执行器类名称：Executor
+执行器动态链接库：KCWN.MobileCharges.Executors.Mobile.JieBeiKuaiShou.dll
+执行器命名空间：KCWN.MobileCharges.Executors.Mobile.JieBeiKuaiShou

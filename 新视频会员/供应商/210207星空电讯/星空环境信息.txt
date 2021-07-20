@@ -1,0 +1,10 @@
+直充：
+AppKey、AppSecret、产品编码由星空创建正式账户提供
+SubmitOrderUrl：http://ip:port/api/index.php/Trade/Index/agentApi 提单地址     (ip:port 正式账户的IP地址和端口号)
+QueryOrderUrl:http://ip:port/api/index.php/Query/Index/getAgentOrderState 查单地址     (ip:port 正式账户的IP地址和端口号)
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/XKSW_ZC 回调地址
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.XKSW_ZC
+
+卡密：
+SubmitOrderUrl：http://ip:port/api/index.php/Trade/Index/agentApi
+执行器类名：KCWN.MultiBussiness.SupplierExecutor.XKSW_KM

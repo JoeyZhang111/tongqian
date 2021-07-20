@@ -1,0 +1,7 @@
+AppKey、AppSecret需要创建正式的帐号
+SubmitUrl：https://api.chengquan.cn/order/directCharge 提单地址
+QueryUrl: https://api.chengquan.cn/order/get 查单地址
+CallBackUrl：http://video.notify.sctongqian.com/CallBack/CW 回调地址
+执行器dll：KCWN.MultiBussiness.SupplierExecutor.CW
+
+

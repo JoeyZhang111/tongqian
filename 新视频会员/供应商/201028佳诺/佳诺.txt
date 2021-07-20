@@ -1,0 +1,16 @@
+1.供应商资料--佳诺
+    AppKey：A17830
+	AppSecret：5CC851E518964F10B8FAB7ED05115B18
+	执行器类型名：KCWN.MultiBussiness.SupplierExecutor.JIANUO.Executor
+	执行器dll：KCWN.MultiBussiness.SupplierExecutor.JIANUO
+
+2.供货商货源资料
+	供应商货源扩展属性：QueryOrderUrl--http://cz.llczy.com/ApiAgent/GatewayV3 查单
+	                    SubmitOrderUrl--http://cz.llczy.com/ApiAgent/GatewayV3 提单
+
+3.产品--优酷黄金周卡 产品编码：ECYK0001
+                     扩展参数：OIL 加油卡业务
+							ECARD 点卡会员业务 (Q 币、会员、视频、游戏等)
+							MOBILE 手机话费业务
+
+		
